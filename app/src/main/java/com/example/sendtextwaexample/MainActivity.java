@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openWhatsApp() {
-        String smsNumber = "6281357570064";     // awal +62 berubah cuma 62 aja
+        // Ganti nomermu
+        String smsNumber = "6283854775376";     // awal +62 berubah cuma 62 aja
         try {
             Intent sendIntent = new Intent("android.intent.action.MAIN");
             sendIntent.setAction(Intent.ACTION_SEND);
